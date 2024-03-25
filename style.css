@@ -15,33 +15,33 @@
     top: 0;
     left: 0;
     overflow: hidden;
-    background: linear-gradient(180deg, rgb(245.7, 16.38, 16.38) 0%, rgb(255, 255, 255) 67.5%);
+    background: linear-gradient(270deg, rgb(245.7, 16.38, 16.38) 0%, rgb(255, 255, 255) 67.5%);
 }
 
 .INRIUM-DESKTOP .overlap {
     position: relative;
     height: 720px;
-    background: linear-gradient(180deg, rgb(205.86, 171.82, 226.58) 17.78%, rgb(255, 255, 255) 65.83%);
+    background: linear-gradient(270deg, rgb(205.86, 171.82, 226.58) 17.78%, rgb(255, 255, 255) 65.83%);
 }
 
-.INRIUM-DESKTOP .overlap-group {
+.INRIUM-DESKTOP .main-header {
     position: absolute;
     width: 1280px;
     height: 48px;
     top: 0;
     left: 0;
-    background: linear-gradient(180deg, rgb(255, 218, 85) 0%, rgb(133, 41, 189) 100%);
+    background: linear-gradient(90deg, rgb(255, 218, 85) 0%, rgb(133, 41, 189) 100%);
 }
 
-.INRIUM-DESKTOP .group {
+.INRIUM-DESKTOP .header-find-party-button {
     position: absolute;
-    width: 274px;
+    width: 272px;
     height: 27px;
-    top: 12px;
+    top: 10px;
     left: 648px;
 }
 
-.INRIUM-DESKTOP .div-wrapper {
+.INRIUM-DESKTOP .header-find-party-button-body {
     position: relative;
     width: 272px;
     height: 27px;
@@ -49,7 +49,7 @@
     border-radius: 13px;
 }
 
-.INRIUM-DESKTOP .text-wrapper {
+.INRIUM-DESKTOP .header-find-party-button-text {
     width: 272px;
     height: 27px;
     top: 0;
@@ -61,18 +61,18 @@
     position: absolute;
     font-weight: 400;
     letter-spacing: 0;
-    line-height: normal;
+    line-height: 27px;
 }
 
-.INRIUM-DESKTOP .overlap-wrapper {
+.INRIUM-DESKTOP .header-navigation-button-about-us {
     position: absolute;
-    width: 177px;
+    width: 175px;
     height: 27px;
     top: 10px;
     left: 265px;
 }
 
-.INRIUM-DESKTOP .overlap-2 {
+.INRIUM-DESKTOP .header-navigation-button-body {
     position: relative;
     width: 175px;
     height: 27px;
@@ -80,7 +80,7 @@
     border-radius: 13px;
 }
 
-.INRIUM-DESKTOP .text-wrapper-2 {
+.INRIUM-DESKTOP .header-navigation-button-text {
     width: 175px;
     height: 27px;
     top: 0;
@@ -92,10 +92,10 @@
     position: absolute;
     font-weight: 400;
     letter-spacing: 0;
-    line-height: normal;
+    line-height: 27px;
 }
 
-.INRIUM-DESKTOP .overlap-group-wrapper {
+.INRIUM-DESKTOP .header-navigation-button-achievements {
     position: absolute;
     width: 177px;
     height: 27px;
@@ -136,11 +136,11 @@
     left: 552px;
 }
 
-.INRIUM-DESKTOP .rectangle {
+.INRIUM-DESKTOP .main-info-body {
     width: 656px;
     height: 186px;
     top: 1px;
-    background: linear-gradient(180deg, rgb(255, 218, 85) 19.86%, rgb(133, 41, 189) 82.91%);
+    background: linear-gradient(90deg, rgb(255, 218, 85) 50%, rgb(133, 41, 189) 100%);
     position: absolute;
     left: 0;
 }
@@ -159,10 +159,10 @@
     line-height: normal;
 }
 
-.INRIUM-DESKTOP .element {
+.INRIUM-DESKTOP .main-page-text {
     width: 590px;
     height: 134px;
-    top: 52px;
+    top: 72px;
     left: 33px;
     font-family: "Russo One", Helvetica;
     color: #000000;
@@ -176,7 +176,7 @@
     position: absolute;
     font-weight: 400;
     letter-spacing: 0;
-    line-height: normal;
+    line-height: 20px;
 }
 
 .INRIUM-DESKTOP .line {
@@ -187,15 +187,15 @@
     height: 5px;
 }
 
-.INRIUM-DESKTOP .group-2 {
+.INRIUM-DESKTOP .find-party-button {
     position: absolute;
-    width: 658px;
+    width: 656px;
     height: 74px;
     top: 311px;
     left: 552px;
 }
 
-.INRIUM-DESKTOP .overlap-group-2 {
+.INRIUM-DESKTOP .find-party-button-body {
     position: relative;
     width: 656px;
     height: 74px;
@@ -203,7 +203,7 @@
     border-radius: 37px;
 }
 
-.INRIUM-DESKTOP .text-wrapper-4 {
+.INRIUM-DESKTOP .find-party-button-text {
     width: 656px;
     height: 74px;
     color: #ffda55;
@@ -215,7 +215,7 @@
     font-weight: 400;
     text-align: center;
     letter-spacing: 0;
-    line-height: normal;
+    line-height: 74px;
 }
 
 .INRIUM-DESKTOP .frame {
@@ -254,10 +254,10 @@
 .INRIUM-DESKTOP .overlap-4 {
     position: relative;
     height: 490px;
-    background: linear-gradient(180deg, rgb(205.86, 171.82, 226.58) 17.78%, rgb(255, 255, 255) 65.83%);
+    background: linear-gradient(270deg, rgb(205.86, 171.82, 226.58) 17.78%, rgb(255, 255, 255) 65.83%);
 }
 
-.INRIUM-DESKTOP .group-3 {
+.INRIUM-DESKTOP .about-us-info-card-2 {
     position: absolute;
     width: 562px;
     height: 95px;
@@ -265,17 +265,17 @@
     left: 648px;
 }
 
-.INRIUM-DESKTOP .overlap-group-3 {
+.INRIUM-DESKTOP .about-us-info-card-body {
     position: relative;
     width: 560px;
     height: 95px;
-    background: linear-gradient(180deg, rgb(255, 218, 85) 19.86%, rgb(133, 41, 189) 82.91%);
+    background: linear-gradient(90deg, rgb(255, 218, 85) 45%, rgb(133, 41, 189) 100%);
 }
 
 .INRIUM-DESKTOP .p {
     width: 558px;
     height: 95px;
-    top: 0;
+    top: 30px;
     left: 0;
     font-family: "Ruslan Display", Helvetica;
     color: #000000;
@@ -287,7 +287,7 @@
     line-height: normal;
 }
 
-.INRIUM-DESKTOP .group-4 {
+.INRIUM-DESKTOP .about-us-info-card-4 {
     position: absolute;
     width: 562px;
     height: 95px;
@@ -295,10 +295,10 @@
     left: 648px;
 }
 
-.INRIUM-DESKTOP .text-wrapper-5 {
+.INRIUM-DESKTOP .about-us-info-card-text {
     width: 560px;
     height: 95px;
-    top: 0;
+    top: 30px;
     left: 0;
     font-family: "Ruslan Display", Helvetica;
     color: #000000;
@@ -310,7 +310,7 @@
     line-height: normal;
 }
 
-.INRIUM-DESKTOP .group-5 {
+.INRIUM-DESKTOP .about-us-info-card-3 {
     position: absolute;
     width: 562px;
     height: 95px;
@@ -318,7 +318,7 @@
     left: 72px;
 }
 
-.INRIUM-DESKTOP .group-6 {
+.INRIUM-DESKTOP .about-us-info-card-1 {
     position: absolute;
     width: 562px;
     height: 95px;
@@ -326,7 +326,7 @@
     left: 72px;
 }
 
-.INRIUM-DESKTOP .group-7 {
+.INRIUM-DESKTOP .about-us-title {
     position: absolute;
     width: 562px;
     height: 73px;
@@ -334,14 +334,14 @@
     left: 360px;
 }
 
-.INRIUM-DESKTOP .overlap-5 {
+.INRIUM-DESKTOP .about-us-title-body {
     position: relative;
     width: 560px;
     height: 73px;
-    background: linear-gradient(180deg, rgb(255, 218, 85) 19.86%, rgb(133, 41, 189) 82.91%);
+    background: linear-gradient(90deg, rgb(255, 218, 85) 19.86%, rgb(133, 41, 189) 82.91%);
 }
 
-.INRIUM-DESKTOP .text-wrapper-6 {
+.INRIUM-DESKTOP .about-us-title-text {
     width: 560px;
     height: 73px;
     color: #000000;
@@ -353,7 +353,7 @@
     font-weight: 400;
     text-align: center;
     letter-spacing: 0;
-    line-height: normal;
+    line-height: 73px;
 }
 
 .INRIUM-DESKTOP .img {
@@ -390,22 +390,22 @@
     top: 208px;
 }
 
-.INRIUM-DESKTOP .group-8 {
+.INRIUM-DESKTOP .achievements-card-1 {
     position: absolute;
-    width: 946px;
+    width: 944px;
     height: 68px;
     top: 111px;
     left: 168px;
 }
 
-.INRIUM-DESKTOP .overlap-group-4 {
+.INRIUM-DESKTOP .achievements-card-body {
     position: relative;
     width: 944px;
     height: 68px;
-    background: linear-gradient(180deg, rgb(255, 218, 85) 19.86%, rgb(133, 41, 189) 82.91%);
+    background: linear-gradient(90deg, rgb(255, 218, 85) 30%, rgb(133, 41, 189) 100%);
 }
 
-.INRIUM-DESKTOP .text-wrapper-7 {
+.INRIUM-DESKTOP .achievements-card-text {
     position: absolute;
     width: 944px;
     height: 68px;
@@ -417,7 +417,7 @@
     font-size: 20px;
     text-align: center;
     letter-spacing: 0;
-    line-height: normal;
+    line-height: 68px;
 }
 
 .INRIUM-DESKTOP .group-9 {
@@ -575,14 +575,14 @@
     left: 744px;
 }
 
-.INRIUM-DESKTOP .overlap-group-5 {
+.INRIUM-DESKTOP .last-game-title-body {
     position: relative;
     width: 464px;
     height: 70px;
-    background: linear-gradient(180deg, rgb(255, 218, 85) 19.86%, rgb(133, 41, 189) 82.91%);
+    background: linear-gradient(90deg, rgb(255, 218, 85) 30%, rgb(133, 41, 189) 100%);
 }
 
-.INRIUM-DESKTOP .text-wrapper-8 {
+.INRIUM-DESKTOP .last-frame-title {
     width: 464px;
     height: 70px;
     top: 0;
@@ -594,7 +594,7 @@
     position: absolute;
     font-weight: 400;
     letter-spacing: 0;
-    line-height: normal;
+    line-height: 70px;
 }
 
 .INRIUM-DESKTOP .line-3 {
@@ -605,15 +605,15 @@
     height: 5px;
 }
 
-.INRIUM-DESKTOP .group-15 {
+.INRIUM-DESKTOP .last-frame-find-party-button {
     position: absolute;
-    width: 466px;
+    width: 464px;
     height: 40px;
     top: 261px;
     left: 744px;
 }
 
-.INRIUM-DESKTOP .overlap-7 {
+.INRIUM-DESKTOP .last-frame-find-party-buttom-body {
     position: relative;
     width: 464px;
     height: 40px;
@@ -621,7 +621,7 @@
     border-radius: 13px;
 }
 
-.INRIUM-DESKTOP .text-wrapper-9 {
+.INRIUM-DESKTOP .last-frame-find-party-button-text {
     width: 464px;
     height: 40px;
     top: 0;
@@ -633,7 +633,7 @@
     position: absolute;
     font-weight: 400;
     letter-spacing: 0;
-    line-height: normal;
+    line-height: 40px;
 }
 
 .INRIUM-DESKTOP .footer {
@@ -643,7 +643,7 @@
     top: 2065px;
     left: 0;
     background-color: transparent;
-    background: linear-gradient(180deg, rgb(255, 218, 85) 0%, rgb(133, 41, 189) 100%);
+    background: linear-gradient(90deg, rgb(255, 218, 85) 0%, rgb(133, 41, 189) 100%);
 }
 
 .INRIUM-DESKTOP .text-wrapper-10 {
