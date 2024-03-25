@@ -140,12 +140,12 @@
     width: 656px;
     height: 186px;
     top: 1px;
-    background: linear-gradient(90deg, rgb(255, 218, 85) 50%, rgb(133, 41, 189) 100%);
+    background: linear-gradient(90deg, rgb(255, 218, 85) 0%, rgb(191, 125, 141) 100%);
     position: absolute;
     left: 0;
 }
 
-.INRIUM-DESKTOP .text-wrapper-3 {
+.INRIUM-DESKTOP .main-page-title {
     width: 655px;
     top: 0;
     left: 1px;
@@ -269,7 +269,7 @@
     position: relative;
     width: 560px;
     height: 95px;
-    background: linear-gradient(90deg, rgb(255, 218, 85) 45%, rgb(133, 41, 189) 100%);
+    background: linear-gradient(90deg, rgb(255, 218, 85) 0%, rgb(191, 125, 141) 100%);
 }
 
 .INRIUM-DESKTOP .p {
@@ -338,7 +338,7 @@
     position: relative;
     width: 560px;
     height: 73px;
-    background: linear-gradient(90deg, rgb(255, 218, 85) 19.86%, rgb(133, 41, 189) 82.91%);
+    background: linear-gradient(90deg, rgb(255, 218, 85) 0%, rgb(191, 125, 141) 100%);
 }
 
 .INRIUM-DESKTOP .about-us-title-text {
@@ -402,7 +402,7 @@
     position: relative;
     width: 944px;
     height: 68px;
-    background: linear-gradient(90deg, rgb(255, 218, 85) 30%, rgb(133, 41, 189) 100%);
+    background: linear-gradient(90deg, rgb(255, 218, 85) 0%, rgb(191, 125, 141) 100%);
 }
 
 .INRIUM-DESKTOP .achievements-card-text {
@@ -420,7 +420,7 @@
     line-height: 68px;
 }
 
-.INRIUM-DESKTOP .group-9 {
+.INRIUM-DESKTOP .achievements-card-2 {
     position: absolute;
     width: 946px;
     height: 68px;
@@ -428,7 +428,7 @@
     left: 168px;
 }
 
-.INRIUM-DESKTOP .group-10 {
+.INRIUM-DESKTOP .achievements-card-3 {
     position: absolute;
     width: 946px;
     height: 68px;
@@ -436,7 +436,7 @@
     left: 168px;
 }
 
-.INRIUM-DESKTOP .group-11 {
+.INRIUM-DESKTOP .achievements-card-4 {
     position: absolute;
     width: 946px;
     height: 68px;
@@ -444,7 +444,7 @@
     left: 168px;
 }
 
-.INRIUM-DESKTOP .group-12 {
+.INRIUM-DESKTOP .achievements-card-5 {
     position: absolute;
     width: 946px;
     height: 68px;
@@ -469,7 +469,7 @@
     object-fit: cover;
 }
 
-.INRIUM-DESKTOP .group-13 {
+.INRIUM-DESKTOP .achievements-title {
     position: absolute;
     width: 562px;
     height: 73px;
@@ -545,7 +545,7 @@
     background-color: #ffffff;
 }
 
-.INRIUM-DESKTOP .overlap-6 {
+.INRIUM-DESKTOP .end-frame-body {
     position: relative;
     height: 521px;
 }
@@ -575,11 +575,11 @@
     left: 744px;
 }
 
-.INRIUM-DESKTOP .last-game-title-body {
+.INRIUM-DESKTOP .last-frame-title-body {
     position: relative;
     width: 464px;
     height: 70px;
-    background: linear-gradient(90deg, rgb(255, 218, 85) 30%, rgb(133, 41, 189) 100%);
+    background: linear-gradient(90deg, rgb(255, 218, 85) 0%, rgb(191, 125, 141) 100%);
 }
 
 .INRIUM-DESKTOP .last-frame-title {
@@ -613,7 +613,7 @@
     left: 744px;
 }
 
-.INRIUM-DESKTOP .last-frame-find-party-buttom-body {
+.INRIUM-DESKTOP .last-frame-find-party-button-body {
     position: relative;
     width: 464px;
     height: 40px;
@@ -704,4 +704,760 @@
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
+}
+
+@media (max-width: 1024px) {
+    .INRIUM-DESKTOP {
+        width: 1024px;
+    }
+
+    .INRIUM-DESKTOP .main {
+        width: 1024px;
+    }
+
+    .INRIUM-DESKTOP .logo {
+        height: 72px;
+        width: 136px;
+    }
+
+    .INRIUM-DESKTOP .main-header {
+        width: 1024px;
+        height: 72px;
+    }
+
+    .INRIUM-DESKTOP .header-find-party-button-body {
+        height: 47px;
+        width: 272px;
+    }
+
+    .INRIUM-DESKTOP .header-find-party-button-text {
+        line-height: 47px;
+        font-size: 20px;
+    }
+
+    .INRIUM-DESKTOP .header-navigation-button-body {
+        height: 47px;
+        width: 176px;
+    }
+
+    .INRIUM-DESKTOP .header-navigation-button-text {
+        line-height: 47px;
+        font-size: 20px;
+    }
+
+    .INRIUM-DESKTOP .icon-park-telegram {
+        visibility: hidden;
+    }
+
+    .INRIUM-DESKTOP .ic-baseline-discord {
+        visibility: hidden;
+    }
+
+    .INRIUM-DESKTOP .frame {
+        left: 72px;
+    }
+
+    .INRIUM-DESKTOP .overlap {
+        width: 1024px;
+    }
+
+    .INRIUM-DESKTOP .overlap-3 {
+        left: 362px;
+        width: 560px;
+    }
+
+    .INRIUM-DESKTOP .main-info-body {
+        width: 560px;
+    }
+
+    .INRIUM-DESKTOP .main-page-text {
+        width: 504px;
+        left: 33px;
+        right: 33px;
+    }
+
+    .INRIUM-DESKTOP .main-page-title {
+        width: 560px;
+    }
+
+    .INRIUM-DESKTOP .line {
+        width: 256px;
+        left: 152px;
+    }
+
+    .INRIUM-DESKTOP .find-party-button {
+        left: 362px;
+        width: 560px;
+    }
+
+    .INRIUM-DESKTOP .find-party-button-body {
+        width: 560px;
+    }
+
+    .INRIUM-DESKTOP .find-party-button-text {
+        width: 560px;
+    }
+
+    .INRIUM-DESKTOP .more-info {
+        width: 1024px;
+    }
+
+    .INRIUM-DESKTOP .overlap-4 {
+        width: 1024px;
+    }
+
+    .INRIUM-DESKTOP .about-us-info-card-1 {
+        width: 384px;
+        height: 91px;
+    }
+
+    .INRIUM-DESKTOP .about-us-info-card-2 {
+        width: 384px;
+        height: 91px;
+        left: 538px;
+    }
+
+    .INRIUM-DESKTOP .about-us-info-card-3 {
+        width: 384px;
+        height: 91px;
+    }
+
+    .INRIUM-DESKTOP .about-us-info-card-4 {
+        width: 384px;
+        height: 91px;
+        left: 538px;
+    }
+
+    .INRIUM-DESKTOP .about-us-info-card-body {
+        width: 384px;
+        height: 91px;
+    }
+
+    .INRIUM-DESKTOP .about-us-info-card-text {
+        width: 360px;
+        height: 91px;
+        left: 12px;
+        top: 12px;
+    }
+
+    .INRIUM-DESKTOP .about-us-info-card-1 .about-us-info-card-text {
+        top: 24px;
+    }
+
+    .INRIUM-DESKTOP .about-us-info-card-4 .about-us-info-card-text {
+        top: 24px;
+    }
+
+    .INRIUM-DESKTOP .about-us-info-card-3 .about-us-info-card-text {
+        top: 16px;
+    }
+
+    .INRIUM-DESKTOP .about-us-title {
+        left: 256px;
+        width: 464px;
+    }
+
+    .INRIUM-DESKTOP .about-us-title-body {
+        width: 464px;
+    }
+
+    .INRIUM-DESKTOP .about-us-title-text {
+        width: 464px;
+    }
+
+    .INRIUM-DESKTOP .img {
+        width: 248px;
+        left: 110px;
+    }
+
+    .INRIUM-DESKTOP .line-2 {
+        width: 360px;
+        left: 52px;
+    }
+
+    .INRIUM-DESKTOP .achievements-card-body {
+        width: 656px;
+    }
+
+    .INRIUM-DESKTOP .icon-park-telegram-3 {
+        left: 840px;
+    }
+
+    .INRIUM-DESKTOP .element-3 {
+        left: 840px;
+    }
+
+    .INRIUM-DESKTOP .la-dice-d {
+        left: 840px;
+    }
+
+    .INRIUM-DESKTOP .ic-baseline-discord-3 {
+        left: 840px;
+    }
+
+    .INRIUM-DESKTOP .image-3 {
+        left: 840px;
+    }
+
+    .INRIUM-DESKTOP .achievements-card-text {
+        width: 609px;
+        left: 18px;
+        right: 18px;
+        line-height: normal;
+        top: 10px;
+    }
+
+    .INRIUM-DESKTOP .achievements-card-2 .achievements-card-text {
+        top: 22px;
+    }
+
+    .INRIUM-DESKTOP .achievements-card-1 .achievements-card-text {
+        top: 22px;
+    }
+
+    .INRIUM-DESKTOP .achievements-title {
+        left: 256px;
+    }
+
+    .INRIUM-DESKTOP .endframe {
+        width: 1024px;
+    }
+
+    .INRIUM-DESKTOP .end-frame-body {
+        width: 1024px;
+    }
+
+    .INRIUM-DESKTOP .rectangle-2 {
+        width: 1024px;
+    }
+
+    .INRIUM-DESKTOP .unsplash {
+        width: 1024px;
+    }
+
+    .INRIUM-DESKTOP .group-14 {
+        left: 532px;
+        width: 368px;
+    }
+
+    .INRIUM-DESKTOP .last-frame-find-party-button {
+        left: 532px;
+        width: 368px;
+        height: 95px;
+    }
+
+    .INRIUM-DESKTOP .last-frame-find-party-button-text {
+        left: 24px;
+        right: 24px;
+        width: 320px;
+        height: 95px;
+        top: 12px;
+    }
+
+    .INRIUM-DESKTOP .last-frame-find-party-button-body{
+        width: 368px;
+        height: 95px;
+    }
+
+    .INRIUM-DESKTOP .last-frame-title-body{
+        width: 368px;
+    }
+
+    .INRIUM-DESKTOP .last-frame-title{
+        width: 368px;
+    }
+
+    .INRIUM-DESKTOP .line-3{
+        width: 156px;
+        left: 106px;
+    }
+
+    .INRIUM-DESKTOP .footer{
+        width: 1024px;
+        height: 60px;
+    }
+
+    .INRIUM-DESKTOP .text-wrapper-10 {
+        width: 185px;
+        height: 34px;
+    }
+
+    .INRIUM-DESKTOP .text-wrapper-11 {
+        width: 185px;
+        height: 34px;
+        left: 732px;
+    }
+
+    .INRIUM-DESKTOP .text-wrapper-12 {
+        width: 185px;
+        height: 34px;
+        left: 512px;
+    }
+
+    .INRIUM-DESKTOP .text-wrapper-13 {
+        width: 185px;
+        height: 34px;
+        left: 292px;
+    }
+
+    .INRIUM-DESKTOP .some-statistics {
+        width: 1024px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .INRIUM-DESKTOP {
+        width: 320px;
+    }
+
+    .INRIUM-DESKTOP .main {
+        width: 320px;
+        height: 173px;
+    }
+
+    .INRIUM-DESKTOP .logo {
+        height: 36px;
+        width: 68px;
+        left: 20px;
+    }
+
+    .INRIUM-DESKTOP .main-header {
+        width: 320px;
+        height: 36px;
+    }
+
+    .INRIUM-DESKTOP .header-find-party-button-body {
+        height: 20px;
+        width: 184px;
+    }
+
+    .INRIUM-DESKTOP .header-find-party-button{
+        top: 8px;
+        left: 120px;
+        height: 20px;
+        width: 184px;
+    }
+    .INRIUM-DESKTOP .header-find-party-button-text {
+        line-height: 20px;
+        font-size: 12px;
+        height: 20px;
+        width: 184px;
+    }
+
+    .INRIUM-DESKTOP .header-navigation-button-body {
+        visibility: hidden;
+    }
+
+    .INRIUM-DESKTOP .header-navigation-button-text {
+        visibility: hidden;
+    }
+
+    .INRIUM-DESKTOP .icon-park-telegram {
+        visibility: hidden;
+    }
+
+    .INRIUM-DESKTOP .ic-baseline-discord {
+        visibility: hidden;
+    }
+
+    .INRIUM-DESKTOP .frame {
+        visibility: hidden;
+    }
+
+    .INRIUM-DESKTOP .overlap {
+        height: 240px;
+        width: 320px;
+    }
+
+    .INRIUM-DESKTOP .overlap-3 {
+        left: 0;
+        top: 34px;
+        width: 320px;
+    }
+
+    .INRIUM-DESKTOP .main-info-body {
+        width: 320px;
+        height: 140px;
+    }
+
+    .INRIUM-DESKTOP .main-page-text {
+        width: 280px;
+        left: 20px;
+        right: 20px;
+        font-size: 10px;
+        line-height: normal;
+        top: 36px;
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    .INRIUM-DESKTOP .main-page-title {
+        width: 300px;
+        font-size: 24px;
+        top: 8px;
+    }
+
+    .INRIUM-DESKTOP .line {
+        width: 100px;
+        left: 100px;
+        top: 26px;
+    }
+
+    .INRIUM-DESKTOP .find-party-button {
+        top: 136px;
+        left: 20px;
+        width: 280px;
+        height: 28px;
+    }
+
+    .INRIUM-DESKTOP .find-party-button-body {
+        width: 280px;
+        height: 28px;
+    }
+
+    .INRIUM-DESKTOP .find-party-button-text {
+        top: 0;
+        width: 280px;
+        font-size: 20px;
+        height: 28px;
+        line-height: 28px;
+    }
+
+    .INRIUM-DESKTOP .more-info {
+        top: 173px;
+        width: 320px;
+    }
+
+    .INRIUM-DESKTOP .overlap-4 {
+        width: 320px;
+        height: 192px;
+    }
+
+    .INRIUM-DESKTOP .about-us-info-card-1 {
+        top: 44px;
+        left: 20px;
+        width: 280px;
+        height: 27px;
+    }
+
+    .INRIUM-DESKTOP .about-us-info-card-2 {
+        top: 79px;
+        left: 20px;
+        width: 280px;
+        height: 27px;
+    }
+
+    .INRIUM-DESKTOP .about-us-info-card-3 {
+        top: 114px;
+        left: 20px;
+        width: 280px;
+        height: 27px;
+    }
+
+    .INRIUM-DESKTOP .about-us-info-card-4 {
+        top: 149px;
+        left: 20px;
+        width: 280px;
+        height: 27px;
+    }
+
+    .INRIUM-DESKTOP .about-us-info-card-body {
+        width: 280px;
+        height: 27px;
+    }
+
+    .INRIUM-DESKTOP .about-us-info-card-text {
+        width: 256px;
+        height: 27px;
+        line-height: normal;
+        font-size: 10px;
+    }
+
+    .INRIUM-DESKTOP .about-us-info-card-1 .about-us-info-card-text {
+        top: 4px;
+        left: 12px;
+    }
+
+    .INRIUM-DESKTOP .about-us-info-card-2 .about-us-info-card-text {
+        top: 4px;
+        left: 12px;
+    }
+
+    .INRIUM-DESKTOP .about-us-info-card-3 .about-us-info-card-text {
+        top: 4px;
+        left: 12px;
+    }
+
+    .INRIUM-DESKTOP .about-us-info-card-4 .about-us-info-card-text {
+        top: 4px;
+        left: 12px;
+    }
+
+    .INRIUM-DESKTOP .about-us-title {
+        top: 14px;
+        left: 84px;
+        width: 152px;
+        height: 18px;
+    }
+
+    .INRIUM-DESKTOP .about-us-title-body {
+        width: 152px;
+        height: 18px;
+    }
+
+    .INRIUM-DESKTOP .about-us-title-text {
+        width: 152px;
+        height: 18px;
+        line-height: 18px;
+        font-size: 15px;
+    }
+
+    .INRIUM-DESKTOP .img {
+        top: 10px;
+        width: 82px;
+        left: 35px;
+    }
+
+    .INRIUM-DESKTOP .line-2 {
+        top: 10px;
+        width: 120px;
+        left: 16px;
+    }
+
+    .INRIUM-DESKTOP .achievements-card-body {
+        width: 248px;
+        height: 32px;
+    }
+
+    .INRIUM-DESKTOP .icon-park-telegram-3 {
+        visibility: hidden;
+    }
+
+    .INRIUM-DESKTOP .element-3 {
+        visibility: hidden;
+    }
+
+    .INRIUM-DESKTOP .la-dice-d {
+        visibility: hidden;
+    }
+
+    .INRIUM-DESKTOP .ic-baseline-discord-3 {
+        visibility: hidden;
+    }
+
+    .INRIUM-DESKTOP .image-3 {
+        visibility: hidden;
+    }
+
+    .INRIUM-DESKTOP .achievements-card-text {
+        width: 248px;
+        left: 0;
+        right: 0;
+        line-height: normal;
+        font-size: 10px;
+        top: 4px;
+    }
+
+    .INRIUM-DESKTOP .achievements-card-1{
+        top: 37px;
+        left: 52px;
+        height: 20px;
+    }
+
+    .INRIUM-DESKTOP .achievements-card-2{
+        top: 73px;
+        left: 52px;
+        height: 20px;
+    }
+
+    .INRIUM-DESKTOP .achievements-card-3{
+        top: 109px;
+        left: 52px;
+        height: 20px;
+    }
+
+    .INRIUM-DESKTOP .achievements-card-4{
+        top: 145px;
+        left: 52px;
+        height: 20px;
+    }
+
+    .INRIUM-DESKTOP .achievements-card-5{
+        top: 185px;
+        left: 52px;
+        height: 20px;
+    }
+
+    .INRIUM-DESKTOP .icon-park-telegram-2{
+        top: 41px;
+        left: 20px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .INRIUM-DESKTOP .ic-baseline-discord-2{
+        top: 75px;
+        left: 20px;
+        height: 24px;
+        width: 24px;
+    }
+
+
+    .INRIUM-DESKTOP .la-dice{
+        top: 113px;
+        left: 20px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .INRIUM-DESKTOP .element-2{
+        top: 149px;
+        left: 20px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .INRIUM-DESKTOP .image-2{
+        top: 189px;
+        left: 20px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .INRIUM-DESKTOP .achievements-card-1 .achievements-card-text {
+        top: 8px;
+    }
+
+    .INRIUM-DESKTOP .achievements-card-2 .achievements-card-text {
+        top: 8px;
+    }
+
+
+
+
+    .INRIUM-DESKTOP .achievements-title {
+        left: 84px;
+        height: 18px;
+        width: 152px;
+    }
+
+    .INRIUM-DESKTOP .endframe {
+        top: 605px;
+        width: 320px;
+        height: 214px;
+    }
+
+    .INRIUM-DESKTOP .end-frame-body {
+        height: 214px;
+        width: 320px;
+    }
+
+    .INRIUM-DESKTOP .rectangle-2 {
+        width: 320px;
+        height: 214px;
+    }
+
+    .INRIUM-DESKTOP .unsplash {
+        width: 320px;
+        height: 214px;
+    }
+
+    .INRIUM-DESKTOP .group-14 {
+        top: 11px;
+        left: 88px;
+        width: 152px;
+        height: 24px;
+    }
+
+    .INRIUM-DESKTOP .last-frame-find-party-button {
+        top: 49px;
+        left: 54px;
+        width: 216px;
+        height: 38px;
+    }
+
+    .INRIUM-DESKTOP .last-frame-find-party-button-text {
+        left: 28px;
+        right: 24px;
+        width: 160px;
+        height: 38px;
+        top: 4px;
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .INRIUM-DESKTOP .last-frame-find-party-button-body{
+        width: 216px;
+        height: 38px;
+    }
+
+    .INRIUM-DESKTOP .last-frame-title-body{
+        width: 152px;
+        height: 24px;
+    }
+
+    .INRIUM-DESKTOP .last-frame-title{
+        font-size: 15px;
+        width: 152px;
+        height: 24px;
+        line-height: 24px;
+    }
+
+    .INRIUM-DESKTOP .line-3{
+        width: 66px;
+        left: 43px;
+        top: 13px;
+    }
+
+    .INRIUM-DESKTOP .footer{
+        top: 819px;
+        width: 320px;
+        height: 50px;
+    }
+
+    .INRIUM-DESKTOP .text-wrapper-10 {
+        top: 0;
+        left: 20px;
+        width: 128px;
+        height: 25px;
+        text-align: left;
+        font-size: 8px;
+        line-height: 25px;
+    }
+
+    .INRIUM-DESKTOP .text-wrapper-11 {
+        top: 0;
+        left: 192px;
+        width: 128px;
+        height: 25px;
+        text-align: right;
+        font-size: 8px;
+        line-height: 25px;
+    }
+
+    .INRIUM-DESKTOP .text-wrapper-12 {
+        top: 25px;
+        left: 192px;
+        width: 128px;
+        height: 25px;
+        text-align: right;
+        font-size: 8px;
+        line-height: 25px;
+    }
+
+    .INRIUM-DESKTOP .text-wrapper-13 {
+        top: 25px;
+        left: 20px;
+        width: 128px;
+        height: 25px;
+        text-align: left;
+        font-size: 8px;
+        line-height: 25px;
+    }
+
+    .INRIUM-DESKTOP .some-statistics {
+        width: 320px;
+        top: 365px;
+    }
+
 }
